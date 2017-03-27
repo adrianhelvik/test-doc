@@ -56,3 +56,9 @@ const _ = require('lodash')
 const index = _.findIndex([1, 2, 3], x => x === 2)
 assert.equal(index, 1)
 ```
+
+# Testing
+
+```
+jest
+```

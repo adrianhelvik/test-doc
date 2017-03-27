@@ -1,3 +1,3 @@
-```
+```javascript
 assert(false)
 ```
