@@ -49,14 +49,6 @@ assert.equal(myImportantVariable, 'here')
 assert.equal(typeof myImportantVariable, 'undefined')
 ```
 
-# Requiring external modules
-
-```javascript
-const _ = require('lodash')
-const index = _.findIndex([1, 2, 3], x => x === 2)
-assert.equal(index, 1)
-```
-
 # Testing
 
 ```
