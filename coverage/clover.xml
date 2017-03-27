@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1490648125034" clover="3.2.0">
+  <project timestamp="1490648125034" name="All files">
+    <metrics statements="42" coveredstatements="42" conditionals="18" coveredconditionals="18" methods="3" coveredmethods="3" elements="63" coveredelements="63" complexity="0" loc="42" ncloc="42" packages="2" files="3" classes="3">
+      <package name="docs">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="helloWorldMessage.js" path="/Users/Adrian/testing/test-doc/docs/helloWorldMessage.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="lib">
+        <metrics statements="41" coveredstatements="41" conditionals="18" coveredconditionals="18" methods="3" coveredmethods="3"/>
+        <file name="testDoc.js" path="/Users/Adrian/testing/test-doc/lib/testDoc.js">
+          <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+        </file>
+        <file name="testDocTranspiler.js" path="/Users/Adrian/testing/test-doc/lib/testDocTranspiler.js">
+          <metrics statements="28" coveredstatements="28" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="10" count="63" type="stmt"/>
+          <line num="11" count="46" type="stmt"/>
+          <line num="13" count="63" type="stmt"/>
+          <line num="14" count="63" type="stmt"/>
+          <line num="15" count="8" type="stmt"/>
+          <line num="16" count="8" type="stmt"/>
+          <line num="17" count="8" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="23" count="8" type="stmt"/>
+          <line num="24" count="2" type="stmt"/>
+          <line num="25" count="3" type="stmt"/>
+          <line num="28" count="8" type="stmt"/>
+          <line num="29" count="4" type="stmt"/>
+          <line num="30" count="4" type="stmt"/>
+          <line num="33" count="55" type="stmt"/>
+          <line num="34" count="14" type="stmt"/>
+          <line num="35" count="41" type="stmt"/>
+          <line num="36" count="10" type="stmt"/>
+          <line num="40" count="2" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="44" count="2" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

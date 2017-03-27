@@ -1,0 +1,14 @@
+{
+  "name": "@adrianhelvik/test-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.4"
+  }
+}
