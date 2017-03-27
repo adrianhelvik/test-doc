@@ -2,6 +2,13 @@
 
 `test-doc` is a rather simple utility. It serves as
 a way to combine writing tests with writing documentation.
+To write code, 
+
+```
+\`\`\`javascript
+‹Your code›
+\`\`\`
+```
 
 ## Assertions
 `test-doc` allows for assertions using the NodeJS assert
@@ -41,6 +48,10 @@ any preceding space. If you want the variable to be in
 the same scope you will have to use "=" and "-" for
 creating headers.
 
+```javascript
+const availableEveryWhere = true
+```
+
 ### Example - part 1
 
 ```javascript
@@ -49,15 +60,25 @@ const myImportantVariable = 'here'
 
 ```javascript
 assert.equal(myImportantVariable, 'here')
+assert(availableEveryWhere)
 ```
 
 ### example - part 2
 
 ```javascript
 assert.equal(typeof myImportantVariable, 'undefined')
+assert(availableEveryWhere)
 ```
 
 # Testing
+
+## Show-off testing
+
+```
+test-doc readme.md
+```
+
+## Full test coverage
 
 ```
 jest
