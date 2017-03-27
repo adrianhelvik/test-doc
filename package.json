@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "test-doc": "./bin/test-doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianhelvik/test-doc"
+  },
   "scripts": {
     "test": "jest"
   },
