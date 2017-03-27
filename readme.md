@@ -22,6 +22,14 @@ const message = require('./helloWorldMessage')
 assert.equal(message, 'Hello world')
 ```
 
+### External modules
+
+Unfortulately this is not supported yet.
+
+```javascript
+assert.throws(() => require('lodash'), /Only relative require calls are allowed/)
+```
+
 ## Scoping
 
 The natural question then is, can you use variables that
